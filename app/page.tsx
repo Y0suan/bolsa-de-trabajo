@@ -4,6 +4,7 @@ import { Cursos } from "@/components/cursos";
 import HomeIntro from "@/components/homeIntro";
 import { HomeSimple } from "@/components/homeSimple";
 import { IntroBolsaDeTrabajo } from "@/components/introBolsaDeTrabajo";
+import { IntroBolsaDeTrabajoMejor } from "@/components/introBolsaDeTrbajoMejor";
 import { UltimasNoticias } from "@/components/ultimasNoticias";
 
 
@@ -13,7 +14,8 @@ export default function Home() {
 			{/* <ContHeader/> */}
 			<HomeComplejo/>
 			{/* <HomeSimple/> */}
-			<IntroBolsaDeTrabajo/>
+			<IntroBolsaDeTrabajoMejor/>
+			{/* <IntroBolsaDeTrabajo/> */}
 			<Cursos/>
 			<UltimasNoticias/>
 		</section>

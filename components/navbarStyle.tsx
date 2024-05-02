@@ -10,7 +10,7 @@ import { FcFeedback } from "react-icons/fc";
 
 export default function NavbarStyle() {
   return (
-    <Navbar className=" " >
+    <Navbar className=" " shouldHideOnScroll >
       <NavbarBrand >
         {/* <Image  className=" w-40 px-2 " src="https://res.cloudinary.com/dzqdjsrez/image/upload/v1704793637/agenda-next-panel/qwds1dfaepxputm1ln8q.jpg" ></Image> */}
         <Image width={100} className=" w-20 px-2 " src="https://res.cloudinary.com/dzqdjsrez/image/upload/v1712575507/logo_Oe__color_azul__1_-removebg-preview.png324_lijwx5.png" ></Image>
@@ -71,8 +71,10 @@ export default function NavbarStyle() {
             </DropdownItem>
           </DropdownMenu>
         </Dropdown>
-        <NavbarItem isActive>
-          <Link href="#" aria-current="page">
+        <NavbarItem 
+        // isActive
+        >
+          <Link href="#" color="foreground" aria-current="page">
             Cursos
           </Link>
         </NavbarItem>
@@ -89,9 +91,9 @@ export default function NavbarStyle() {
             <DropdownTrigger>
               <Button
                 disableRipple
-                className="p-4 bg-transparent data-[hover=true]:bg-transparent"
+                // className="p-4 bg-transparent data-[hover=true]:bg-transparent"
                 radius="sm"
-                variant="bordered"
+                color="primary" variant="solid"
               >
                 Contactanos
               </Button>

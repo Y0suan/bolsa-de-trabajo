@@ -5,8 +5,8 @@ import { Link } from 'react-router-dom'
 export const HomeComplejo = () => {
   return (
     <div className=' overflow-x-hidden w-[100%] h-[100vh] flex relative justify-end ' >
-        <div className=' flex justify-center items-center left-0 bg-gradient-to-r from-blue-600 to-blue-500 absolute w-2/4 h-[85%]  borde-inferior-derecho' >
-        <div className='flex flex-col w-96 gap-8 text-white ' >
+        <div className='  flex justify-center items-center left-0 bg-gradient-to-r from-blue-600 to-blue-500 absolute w-2/4 h-[90%]  borde-inferior-derecho' >
+        <div className='pt-10 flex flex-col w-96 gap-8 text-white ' >
         <h1 className=' font-bold  text-7xl  ' >Bolsa de Trabajo</h1>
         <p>Forma parte y accede a un mundo de nuevas oportunidades laborales. Únete a nuestra comunidad y descubre un amplio abanico de posibilidades para avanzar en tu carrera profesional.</p>
        
